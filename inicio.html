@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="formulario.js" defer></script>
+</head>
+
+<body>
+    <h1 id="tituloPrincipal">Título</h1>
+    <p id="mensajeBienvenida">Bienvenido a nuestro gestor interactivo de tareas</p>
+
+    <label for="fname">Nombre:</label><br>
+    <input type="text" id="inputNombre" name="fname"><br>
+    <button id="btnActualizarNombre">Actualizar nombre</button>
+    <br>
+
+    <select id="colorUsuario">
+        <option value="red">Color Rojo</option>
+        <option value="green">Color Verde</option>
+        <option value="blue">Color Azul</option>
+        <option value="yellow">Color Amarillo</option>
+    </select>
+
+    <ul id="listaTareas">
+        <li>Tarea 1</li>
+        <li>Tarea 2</li>
+        <li>Tarea 3</li>
+    </ul>
+
+    <input type="text" id="inputTarea">
+    <button id="btnAgregarTarea">Agregar tarea</button><br>
+
+    <div class="cuadroInfo">Pasa el ratón aquí para cambiar el color.</div>
+    <div class="cuadroInfo">Haz doble clic para ocultarme.</div>
+
+    <div id="galeria">
+        <img class="imagenGaleria" src="imagen1.png" alt="hoja">
+        <img class="imagenGaleria" src="imagen2.png" alt="arena">
+        <img class="imagenGaleria" src="imagen3.png" alt="arbol">
+    </div>
+
+    <button id="btnOcultarTareas">Ocultar tareas</button>
+    <button id="btnAlternarTema">Alternar temas</button>
+</body>
+
+</html>
